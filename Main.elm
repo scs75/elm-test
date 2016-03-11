@@ -1,6 +1,7 @@
-import Html exposing (text)
+--import Html exposing (text)
+import Graphics.Element exposing (show)
 
-main : Html.Html
+main : Graphics.Element.Element
 main =
-  text "Hello, World5!"
+  show ["a", "b", "e"]
 
