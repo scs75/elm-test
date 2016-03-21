@@ -1,5 +1,6 @@
 --import Menu exposing (init, update, view)
-import Frame.Menu exposing (init, initItems, update, view)
+--import Frame.Menu exposing (init, initItems, update, view)
+import Frame.Navbar exposing (init, update, view)
 import StartApp.Simple exposing (start)
 import Html
 
@@ -13,7 +14,7 @@ import Html
 main : Signal Html.Html
 main =
   start
-    { model = init initItems True False
+    { model = init
     , update = update
     , view = view
     }

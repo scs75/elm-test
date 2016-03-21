@@ -1,4 +1,4 @@
---module Frame.Menu (init, initItems, update, view) where
+module Frame.Menu (Model, init, initItems, ID, Action, update, view) where
 
 --import Frame.MenuItem as MenuItem
 import Html exposing (Html, li, text, ul, div, span, strong, button, br, a)
@@ -8,7 +8,7 @@ import StartApp.Simple exposing (start)
 import Html.Events exposing (onClick)
 import Random
 
-main = start { model = init [] True False, update = update, view = view' }
+--main = start { model = init [] True False, update = update, view = view' }
 
 -- MODEL
 
